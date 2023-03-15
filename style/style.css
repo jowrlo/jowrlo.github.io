@@ -26,10 +26,10 @@
 	margin: auto;
 	margin-top: 16px;
 	font-family: 'Cormorant Garamond', serif;
+	font-size: 30px;
 	text-align: center;
 	width: 100%;
 }
-
 
 .footer{
 	bottom:0px;
@@ -37,9 +37,14 @@
 	width: 100%;	
 }
 
+.navbar{
+	display: flex;
+}
+
 .navbar li{
 	display: inline;
 	list-style-type: none;
+	width: 100%;
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 20px;
 }
